@@ -20,4 +20,18 @@ cursor.close()
 
 
 
-v 0 1 6
+# import pymysql.cursors
+#
+# connection = pymysql.connect(
+#     host="localhost",
+#     user="root",
+#     passwd="<admin>",
+#     database="academy",
+#     cursorclass=pymysql.cursors.DictCursor
+#     )
+# cursor = connection.cursor()
+# sql = 'SELECT * from teachers'
+# cursor.execute(sql)
+# result = cursor.fetchone()
+# for row in result:
+#     print(row)
