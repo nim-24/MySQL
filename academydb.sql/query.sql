@@ -12,3 +12,7 @@ select elt(floor(rand() * 5) + 1,
 'информатика', 'биология', 'физика', 'химия', 'бд');
 
 select random_id_range('teachers');
+
+show triggers;
+insert into clases (class_name, places)
+values ("красная", 20);
