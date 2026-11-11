@@ -17,7 +17,7 @@ BEGIN
 END
 
 
-CREATE DEFINER=`root`@`localhost` PROCEDURE `sp_subjects_insert`(in count int)
+CREATE DEFINER=`root`@`localhost` PROCEDURE ``(in count int)
 BEGIN
 	declare i int default 1;
     declare count int default 1;
